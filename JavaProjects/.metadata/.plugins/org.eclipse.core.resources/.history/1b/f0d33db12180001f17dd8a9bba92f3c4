@@ -1,0 +1,36 @@
+package JavaTopics;
+
+import java.util.Scanner;
+
+public class Scaneer {
+
+	public static void main(String[] args) {
+	
+//		// Using Scanner class get the below details
+//        empId
+//        empName
+//        empEmail
+//        empPhoneno
+//        empSalary
+//        empGender
+//        empCity
+
+		
+		
+		Scanner Sc= new Scanner(System.in);
+		
+		
+		 // Prompt user for employee details
+        System.out.print("Enter Employee ID: ");
+        empId = scanner.nextInt();
+        scanner.nextLine(); // Consume newline left-over
+	
+		
+		
+		
+		
+		
+		
+	}
+
+}

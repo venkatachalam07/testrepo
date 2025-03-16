@@ -1,0 +1,27 @@
+package JavaTopics;
+
+public class DatePractice {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		DatePractice d=new DatePractice();
+		
+	 String  currentdate=d.toString(); 
+		
+		
+		System.out.println(currentdate);
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,36 @@
+package JavaPracticeHW;
+
+public class String1 {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		String s= new String();
+		
+    String	name = "AutomationTesting" ;
+
+		System.out.println(name);
+			
+System.out.println(name.length());
+
+System.out.println(name.indexOf('T'));
+
+System.out.println(name.lastIndexOf("i"));
+
+System.out.println(name.substring(0, 10));
+
+System.out.println(name.replace("o", "  "));
+
+System.out.println(name.toLowerCase());
+		
+System.out.println(name.toUpperCase());
+
+	
+
+System.out.println(name.trim());
+
+	}
+
+}

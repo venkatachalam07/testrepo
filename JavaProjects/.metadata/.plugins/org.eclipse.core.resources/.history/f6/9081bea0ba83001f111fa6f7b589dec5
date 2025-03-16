@@ -1,0 +1,38 @@
+package JavaPractice;
+
+public class Mobiles {
+	
+	public static void main(String[] args) {
+		
+		
+		int price =21000;
+		
+		
+	String	result = "Mobile";
+	
+	
+	
+	
+	if(price<=20000 || result=="Mobile") {
+		
+		System.out.println("You Mobile is REDMI");
+		
+		
+	}
+	
+	else if(price>=21000 || result=="Mobile") {
+		
+		System.out.println("You Mobile is REDMI");
+		
+		
+	}
+		
+	else {
+		System.out.println("you Try can Try EMI option lessthan 5K");
+
+	}
+		
+		
+		
+	}
+}

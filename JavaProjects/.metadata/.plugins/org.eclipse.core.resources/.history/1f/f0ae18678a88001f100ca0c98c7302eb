@@ -1,0 +1,12 @@
+package Inheritance;
+
+public class Child1 extends ParentClass {
+	
+	
+	public void Testing() {
+	System.out.println("Testing Child1");
+	}
+	
+	
+
+}

@@ -1,0 +1,28 @@
+package JavaPractice;
+
+public class DecisionMarks {
+	public static void main(String[] args) {
+		
+		
+		// marks & groups
+		
+		
+int Mark =43;
+
+
+String result = "You Group is This";
+		
+		if((Mark>=45 && Mark<=60) && result=="You Group is This") {
+			
+		}
+
+
+System.out.println("You Eligible for Commerce");
+
+		
+	}
+	
+
+
+
+}

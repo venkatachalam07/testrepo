@@ -1,0 +1,19 @@
+package JavaPracticeHW;
+
+public class String {
+	
+	
+	
+	public static void main(String1[] args) {
+		
+		
+		String1 s= new String1();
+		
+    String1	name = "AutomationTesting" ;
+
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package JavaTopics;
+
+public class Date {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		Date d=new Date();
+		
+	 String  currentdate=d.toString(); 
+		
+		
+		System.out.println(currentdate);
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}
