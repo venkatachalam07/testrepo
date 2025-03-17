@@ -1,0 +1,145 @@
+package InterviewPro;
+
+import java.util.Scanner;
+
+public class smilpeProgram {
+	
+
+	
+	public static void main(String[] args) {
+		
+		smilpeProgram v=new smilpeProgram();
+		
+		//v.voteeligiblelist();
+		
+		// v.oddNumorEvenNumber();
+		
+	
+	//v.Pactorials();
+		
+		
+		v.EvenNumberCount();
+	 }
+	
+	
+	
+	private void EvenNumberCount() {
+
+		
+//		
+//	
+//		int num=100;
+//		
+//		int Count = 0;
+//		
+//		for(int i= 0; i<=num/2;i++) {
+//			
+//		
+//			
+//			Count = Count+1;
+//		}
+//	
+//	System.out.println(Count);
+//	
+
+	int num1=100;
+	
+	int Count1 = 1;
+	
+	for(int i= 0; i<=num1/2;i++) {
+		
+	
+		
+		Count1 = Count1+2;
+	
+	
+	}
+
+System.out.println(Count1);
+		
+	}
+	
+	
+	
+	
+	private void voteeligiblelist() {
+
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter You Age");
+		
+		
+		int age = sc.nextInt();
+		
+		
+		if (age>18) {
+			
+			System.out.println("You eligible for vote");
+	      		}
+		
+		else {
+			System.out.println("You Not Eligible for Vote");
+		}
+		
+		
+	}
+	
+	
+	
+	public void oddNumorEvenNumber() {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter You Number");
+		int num = sc.nextInt();
+		
+		
+		if (num%2==0) {
+			
+			System.out.println("It's is Even Number");
+	
+		}
+	
+		
+		
+		else {
+			
+			System.out.println("It is odd number");
+		}
+		
+
+	}
+	
+	
+	private void Pactorials() {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter You Number");
+		int fact = sc.nextInt();
+
+       
+		int i=(fact-1);
+		while(i>0) //2>0 //1>0
+		{
+		
+		 fact= fact*i; //4*3 //12*2  //24*1 //
+		 
+		  //12 //24
+		 
+		 i--; //2 //1 //0
+		  
+		}
+		System.out.println(fact);
+
+
+
+	
+			
+					}
+
+		
+		
+
+
+
+	
+	}

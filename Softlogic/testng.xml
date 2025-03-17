@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="My_Report.MyReport"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCase_Pack.TestCase_Demo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

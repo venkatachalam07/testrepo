@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Github\SLAJavaClass\src\Class\Array_asc_order.java"/>
+			<item value="E:\Eclipse\TESTNG_FRAMEWORK"/>
+			<item value="E:\Eclipse\Cucumber"/>
+			<item value="E:\Eclipse\AdactinHotelApp\src\test\java\TestRunner\TestCases.java"/>
+			<item value="E:\Eclipse\POM_Design\src\test\java\AdactinHotelApp\AdactinHotel_TestCase.java"/>
+			<item value="E:\Eclipse\Pom_Project"/>
+			<item value="E:\Eclipse\Selenium_automation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="NewProject.AutomationPractice"/>
+			<item value="Softlogic_project.Softlogic"/>
+			<item value="Softlogic_project.SLA_Projecct"/>
+			<item value="Cucumber_Framework.Cucumber"/>
+			<item value="KeywordDriven.KeywordDriven"/>
+			<item value="TestRunner"/>
+		</list>
+		<list key="groupId">
+			<item value="NewProject"/>
+			<item value="Softlogic_project"/>
+			<item value="Cucumber_Framework"/>
+			<item value="KeywordDriven"/>
+			<item value="AdactinHotelApp"/>
+		</list>
+		<list key="artifactId">
+			<item value="AutomationPractice"/>
+			<item value="Softlogic"/>
+			<item value="SLA_Projecct"/>
+			<item value="Cucumber"/>
+			<item value="KeywordDriven"/>
+			<item value="AdactinHotelApp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

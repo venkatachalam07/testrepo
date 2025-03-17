@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+<listeners>
+<listener class-name="TestCasess.Testng_Report"/>
+</listeners>
+  <test thread-count="5" name="Testchrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="TestCasess.Test_Case"/>
+    </classes>
+  </test> <!-- Test -->  
+   <test thread-count="5" name="TestEdge">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestCasess.Test_Case"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

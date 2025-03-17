@@ -1,0 +1,51 @@
+package InterviewPro;
+
+import java.util.Scanner;
+
+public class Pactorial {
+	
+	
+	
+	 public static void main(String[] args) {
+	
+		 
+		 Scanner sc= new Scanner(System.in);
+		 
+		 
+		 System.out.println(" Enter the Number");
+		 
+		int num =  sc.nextInt();
+		 
+
+		 
+		 
+		 for  (int i=3 ; i>0;i--) { // 5 *4=20  / 
+			 
+			    num=num*i;
+			   
+	//		 4*3  12*2  24*1
+		
+			 
+		 }
+		 
+		 
+		  System.out.println(num);
+		 
+		
+		 
+		 
+	
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	}
+	
+
+}

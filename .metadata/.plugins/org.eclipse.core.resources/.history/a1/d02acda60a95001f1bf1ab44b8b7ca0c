@@ -1,0 +1,69 @@
+package InterviewPro;
+
+import java.util.Scanner;
+
+public class smilpeProgram {
+	
+	
+	private void voteeligiblelist() {
+
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter You Age");
+		
+		
+		int age = sc.nextInt();
+		
+		
+		if (age>18) {
+			
+			System.out.println("You eligible for vote");
+	      		}
+		
+		else {
+			System.out.println("You Not Eligible for Vote");
+		}
+		
+		
+	}
+	
+	
+	
+	public void oddNumorEvenNumber() {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter You Number");
+		int num = sc.nextInt();
+		
+		
+		if (num%2==0) {
+			
+			System.out.println("It's is Even Number");
+	
+		}
+	
+		
+		
+		else {
+			
+			System.out.println("It is odd number");
+		}
+		
+
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		smilpeProgram v=new smilpeProgram();
+		
+		//v.voteeligiblelist();
+		
+		v.oddNumorEvenNumber();
+		
+		
+	 }
+	}

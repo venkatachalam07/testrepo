@@ -1,0 +1,224 @@
+package JavaTopics;
+
+import java.util.Scanner;
+
+public class importInterviewprogrom {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		importInterviewprogrom dd= new importInterviewprogrom();
+		
+		// dd.numberbuble();
+		
+	//	dd.comparetwoarrays();
+		
+		
+	 	// dd.factorial();
+		
+		
+	//	dd.primenumber();
+		
+		
+	//	dd.palintrom();
+		
+		
+		dd.StringCount();
+		
+	}
+	
+	
+	private void StringCount() {
+		
+		
+		System.out.println("**************");
+		
+		String name="This is a string";
+		
+		StringBuilder sc= new StringBuilder(name);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	private void palintrom() {
+		Scanner sc= new Scanner(System.in);		
+		System.out.println("Entern the name palintrom");
+		String name = sc.next();//
+	
+	String temp="";
+	
+	for(int i=name.length()-1;i>=0;i--) {
+		char reverword =name.charAt(i);
+		// System.out.println(reverword);
+		 temp =temp+reverword;
+		 System.out.println(temp);
+	}
+	if (name.equalsIgnoreCase(temp)) {
+		
+		System.out.println("It's  Palintrom");
+		
+	}else {
+		
+		System.out.println("It's not Palintrome");
+		
+	}
+	
+		
+		
+
+	}
+	
+	private void primenumber() {
+		Scanner sc= new Scanner(System.in);		
+		System.out.println("Entern the any one Number");
+		int num = sc.nextInt();//
+		
+		
+		for(int i=0;i<num;i++) {
+			
+			
+			int prime=num%2; // % denaminater value is checked it is 
+			
+			if (prime==0) {
+				
+				System.out.println("it's not ya prime number");
+				 break;
+			}
+			
+			else {
+				System.out.println("It's is Prime Number");
+				
+				break;
+			}
+			
+		}
+		
+		
+
+	}
+	
+	
+	public void factorial() {
+
+		
+		
+Scanner sc= new Scanner(System.in);		
+System.out.println("Entern the factorial Number");
+int Fact = sc.nextInt();// if give any number for factorial
+int i = Fact-1	 ;
+while (i>0) {
+Fact=Fact*i;
+System.out.println(i);
+System.out.println(Fact);
+i--;	
+}
+System.out.println("Final Out put "+Fact);
+
+System.out.println("----------For Loop------------");
+
+for (int j=Fact-1;j<0;j--) {
+	
+	
+	Fact = Fact*i;
+	
+	
+}
+
+System.out.println("for loop Anwser "+Fact);
+
+
+
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	private void comparetwoarrays() {
+	
+		
+		int []  a = {3,5,7};
+		
+		int []  b = {3,5,7};
+		
+		
+		int flag=0;
+		
+		
+		
+		
+		
+	for(int i=0;i<a.length;i++) {
+		
+		for (int j=0;j<a.length;j++) {
+			
+			if(a[i]==b[j]) {
+				
+				System.out.println(a[i]+ " Compare "+a[j] +"Equal");
+				
+				flag++;
+				
+			}
+			
+			else {
+				System.out.println(flag);
+			}
+			
+			
+			if(flag==5) {
+				System.out.println("Array is same");
+				break;
+			}
+			
+			else {
+				System.out.println("Array is not same");
+				break;
+			}
+			
+		}
+		
+	}
+
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	private void numberbuble() {
+		int [] user= {44,1,22,33,77,9,0,07,04};
+		System.out.println("-----"+ user.length +"-----");
+		for (int i=0;i<=user.length;i++) {
+			for(int j=i+1;j<user.length;j++) {
+				if(user[i]<=user[j]) {
+					int temp ;
+					temp=user[i];
+					user[i]=user[j];
+					user[j]=temp;	
+				}
+			}
+		}
+		for(int e:user) {
+			System.out.println(e);	
+		}	
+			}
+
+}
